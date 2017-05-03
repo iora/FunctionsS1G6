@@ -49,5 +49,16 @@ int getSumOfSquares(int myArray[]) {
 }
 
 void printAsChars(int myArray[]) {
-	printf("char");
+	for (int i = 0; i < 500; i++) {
+		printf("%c ", myArray[i]);
+	}
+	printf("\n");
 }
+double getAverage(int myArray[]) {
+	double result = 0;
+	int i;
+	for (i = 0; i < 500; i++)
+		result += myArray[i];
+	return result / 500;
+}
+
