@@ -28,6 +28,22 @@ int main(void) {
 
 
 void printGroupMemberNames() {
-	printf("James Bond\n Brad Pitt/n");
+	printf("Vannlydeth Chen\n");
+	printf("Sok San Kou\n");
+	printf("Menghout Chhea\n");
+	printf("Sengthai Te\n");
+}
 
+int getSum(int myArray[]) {
+	int sum = 0;
+	for (int i = 0; i < 500; ++i)
+		sum += myArray[i];
+	return sum;
+}
+
+int getSumOfSquares(int myArray[]) {
+	int sumOfSquare = 0;
+	for (int i = 0; i < 500; ++i)
+		sumOfSquare += (myArray[i]*myArray[i]); // square the values, then add to sum.
+	return sumOfSquare;
 }
