@@ -47,3 +47,7 @@ int getSumOfSquares(int myArray[]) {
 		sumOfSquare += (myArray[i]*myArray[i]); // square the values, then add to sum.
 	return sumOfSquare;
 }
+
+void printAsChars(int myArray[]) {
+
+}
