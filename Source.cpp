@@ -49,5 +49,5 @@ int getSumOfSquares(int myArray[]) {
 }
 
 void printAsChars(int myArray[]) {
-
+	printf("char");
 }
