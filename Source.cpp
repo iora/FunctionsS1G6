@@ -62,4 +62,13 @@ double getAverage(int myArray[]) {
 	return result / 500;
 }
 
-
+//SokSan
+void invertAllValues(int myArray[]) {
+	int i, k;
+	for (i = 0, k = 499; i <= 499, k >= 0; i++, k--) {
+		myArray[i] = k - i; 
+	}
+	for (i = 0; i <= 499; i++) {
+		printf("%i\n", myArray[i]);
+	}
+}
