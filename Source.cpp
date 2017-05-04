@@ -62,3 +62,12 @@ double getAverage(int myArray[]) {
 	return result / 500;
 }
 
+void invertAllValues(int myArray[]) {
+	int i, j;
+	for (i = 0, j = 499; i <= 499, j >= 0; i++, j--) {
+		myArray[i] = j - i; //reverse all of the order of elements in array
+	}
+	for (i = 0; i <= 499; i++) {
+		printf("%i \n", myArray[i]);
+	}
+}
